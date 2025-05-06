@@ -1,0 +1,28 @@
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Arquivos de sistema (macOS)
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Arquivos de log e banco local
+*.log
+instance/
+*.sqlite3
+
+# Arquivos de pacotes
+*.egg-info/
+dist/
+build/
