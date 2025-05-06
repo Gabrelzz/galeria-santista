@@ -1,8 +1,8 @@
 from flask import Flask
-from app.home.routes import home
-from app.estadio.routes import estadio
-from app.ping.routes import ping
-from app.titulos.routes import titulos
+from app.home import home
+from app.estadio import estadio
+from app.ping import ping
+from app.titulos import titulos
 
 # (url_prefix, blueprint_object)
 ACTIVE_ENDPOINTS = (("/ping", ping), ("/", home), ("/estadio", estadio), ("/titulos", titulos))
